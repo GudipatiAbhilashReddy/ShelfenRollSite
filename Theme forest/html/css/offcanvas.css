@@ -1,0 +1,53 @@
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width : 767px) {
+    .row-offcanvas {
+        position           : relative;
+        -webkit-transition : all .25s ease-out;
+        -moz-transition    : all .25s ease-out;
+        transition         : all .25s ease-out;
+        }
+
+    .row-offcanvas-right {
+        right : 0;
+        }
+
+    .row-offcanvas-left {
+        left : 0;
+        }
+
+
+    .row-offcanvas-right
+    .sidebar-offcanvas {
+        right : -300px; /* 6 columns */
+        }
+
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+        left       : -300px; /* 6 columns */
+        height     : 100%;
+        background : #fff;
+        color      : #34404e;
+        }
+
+    .row-offcanvas-right.active {
+        right : 300px; /* 6 columns */
+        }
+
+    .row-offcanvas-left.active {
+        left :300px; /* 6 columns */
+
+        }
+
+    .row-offcanvas-left.active .inner-wrapper{
+        opacity: .5;
+        }
+
+    .sidebar-offcanvas {
+        position : absolute;
+        top      : 0;
+        width    : 300px; /* 6 columns */
+        }
+    }

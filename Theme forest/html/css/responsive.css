@@ -1,0 +1,320 @@
+
+@media (max-width : 480px) {
+    .header-top{
+        text-align: left;
+        }
+
+    .icon-box-wrapper{
+        text-align: left;
+        }
+    .icon-box-wrapper .icon-box{
+        margin-right: 0;
+        padding-right: 0;
+        border-right: 0;
+        display: block;
+        }
+
+    .left-icon-wrapper{
+        flex-wrap: wrap;
+        }
+
+    .left-icon-wrapper .icon-box{
+        width: 50%;
+        }
+
+    .left-icon-wrapper .icon-box a{
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 20px;
+        }
+    }
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 767px) {
+
+    .logo{
+        margin-bottom: 20px;
+        }
+
+	.get-more-info img{padding:0 0 10px 0;}
+	.sidebar {margin-left: -5px;}
+	.tabs-widget ul.nav li a {padding: 8px}
+	.article-title{margin: 10px 0 20px 0;}
+	.INDUSTRY-item {padding: 20px 0 40px 0;}
+	.page-number > p {margin-top: 20;}
+	.sidebar.box-wrapper {margin-left: -5px;}
+	.page-content.box-wrapper { 
+		margin-left: -5px;
+		margin-top: 20px;
+	}
+	.less-pad-left {padding-left: 20px;}
+	.add-pad-right{padding-right: 10px;}
+
+    /*Showcase*/
+    /*Showcase*/
+    #hero-slider-1 .item img{
+        min-width: 100%;
+        }
+
+    .hero-showcase,
+    .hero-showcase .top-service-box{
+        justify-content: flex-start;
+        flex-flow: column;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        }
+    .hero-showcase .top-service-box div{
+        width: 100%;
+        margin: 0;
+        height: auto;
+        }
+
+    .hero-showcase .top-service-box div a{
+        position: relative;
+        display: block;
+        }
+
+
+	.single-latest {margin-bottom: 20px; overflow: hidden;}
+	.footer-widget {overflow:visible; padding-bottom:12px}
+	.sidebar.box-wrapper.INDUSTRY-page {margin-top: 0;}
+	.footer-widget div.row {width: 100%;}
+
+	a#scrollUp {display: none !important;}
+
+	.xs-mrgleft-15 {margin-left: 15px;}
+	.xs-mrgright-15 {margin-right: 15px;}
+	
+	.pagination>li>a, .pagination>li>span {
+	padding: 6px 10px;
+	}
+
+	/* SEARCH BAR */
+	.navbar-header {
+		width: 100%;
+	}
+
+	.text-input {
+	  float: right;
+	}
+	
+	.mag-cat-img {margin-bottom:10px;}
+	.post-thumb{width:100%;}
+
+
+    .left-icon-wrapper{
+        flex-wrap: wrap;
+        }
+
+    .left-icon-wrapper .icon-box{
+        width: 50%;
+        }
+
+    .left-icon-wrapper .icon-box a{
+        font-size: 12px;
+        text-align: left;
+        }
+
+    .left-icon-wrapper .icon-box a i{
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        }
+
+} 
+
+
+/* Landscape Mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .header-top{
+        text-align: center;
+        }
+
+    .icon-box-wrapper{
+        text-align: center;
+        }
+
+	.tabs-widget ul.nav li a {padding: 8px}
+	.get-more-info img{padding:0 0 10px 0;}
+	.article-title{margin:10px 0 20px 0;}
+	.INDUSTRY-item {padding: 20px 0 40px 0;}
+	.page-number > p {margin-top: 50px;}
+
+    .page-content.box-wrapper.about-page { margin-left: 0;}
+	.page-content.box-wrapper.about-left-page { margin-left: -5px;}
+	.sidebar.box-wrapper {margin-left: -5px;}
+	.add-pad-right{padding-right: 10px;}
+	.xs-mrgleft-15 {margin-left: 15px;}
+	.xs-mrgright-15 {margin-right: 15px;}
+
+	/*	BREAKING NEWS CAROUSEL	*/
+	#news-carousel {
+		width 		: 100%;
+		margin-top	: 5px;
+	}
+
+	#news-carousel ul.carousel-inner {
+		width		: 90%;
+	}
+	.featured-article-item {margin-bottom:20px;}
+
+	.post-thumb{width:100%;}
+	
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+    .left-icon-wrapper .icon-box a{
+        font-size: 12px;
+        }
+
+    .left-icon-wrapper .icon-box a i{
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        }
+
+
+    .navbar-header {
+		width: 55px;
+	}
+
+	.head-search .form-control:active, 
+	.head-search .form-control:focus {
+		width: 162px;
+	}
+	.tabs-widget ul.nav li a {
+		padding: 8px;
+	}
+
+	.get-more-info img{padding:0 0 10px 10px;}
+	.article-title{margin: 10px 0 20px 0;}
+	.INDUSTRY-item {padding: 20px 5px 40px 5px;}
+	.page-number > p {margin-top: 50px;}
+
+    /*Showcase*/
+    #hero-slider-1 .item img{
+        min-width: 100%;
+        }
+
+    .hero-showcase,
+    .hero-showcase .top-service-box{
+        justify-content: flex-start;
+        flex-flow: column;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        }
+    .hero-showcase .top-service-box div{
+        width: 100%;
+        margin: 0;
+        height: auto;
+        }
+
+    .hero-showcase .top-service-box div a{
+        position: relative;
+        display: block;
+        }
+
+
+    .sm-mrgleft-15 {margin-left: 15px;}
+	.sm-mrgright-15 {margin-right: 15px;}
+	.add-pad-right{padding-right:15px;}
+
+	/*	MEGA MENU	*/
+	.mega-dropdown .container {
+    	width: 720px;
+ 	}
+
+
+	/*	BREAKING NEWS CAROUSEL	*/
+	#news-carousel {
+		width : 85%;
+	}
+
+	#news-carousel ul.carousel-inner {
+		width		: 91%;
+	}
+
+	.mag-cat-img {margin-bottom:10px;}
+	
+	a#scrollUp {display: none !important;}
+	.post-thumb{width:100%;}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	
+	.tabs-widget ul.nav li a {padding: 8px 10px}
+	.article-title{margin: 0 0 20px;}
+	.INDUSTRY-item {padding: 20px 5px 40px 5px;}
+	.page-number > p {margin-top: 50px;}
+
+    /* Showcase */
+    .showcase-left{
+        width: 100%;
+        }
+
+    .hero-showcase .top-service-box div{
+        width: 200px;
+        height: 165px;
+        }
+
+    .hero-showcase .top-service-box div h2{
+        font-size: 18px;
+        }
+
+
+	/*	MEGA MENU	*/
+	.mega-dropdown .container {
+    	width: 940px;
+ 	}
+
+
+	/*	BREAKING NEWS CAROUSEL	*/
+	#news-carousel {
+		width : 89%;
+	}
+
+	#news-carousel ul.carousel-inner {
+		width		: 93%;
+	}
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) {
+	.tabs-widget ul.nav li a {padding: 8px 15px}
+	.article-title{margin: 0 0 20px;}
+	.INDUSTRY-item {padding: 20px 5px 40px 5px;}
+	.page-number > p {margin-top: 50px;}
+
+
+    /* Showcase */
+    .hero-showcase .showcase-left {
+        width : 665px;
+        }
+
+    .hero-showcase .showcase-right {
+        width : 475px;
+        }
+
+	/*	MEGA MENU	*/
+	.mega-dropdown .container {
+    	width: 1140px;
+ 	}
+
+
+	/*	BREAKING NEWS CAROUSEL	*/
+	#news-carousel {
+		width : 91%;
+	}
+
+}
