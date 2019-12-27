@@ -103,20 +103,95 @@
 <!-- //NAVBAR HEADER -->
 
 <!-- NAVBAR MAIN -->
+<!-- NAVBAR MAIN -->
 <nav class="navbar-collapse collapse">
-
+    
     <ul class="nav navbar-nav">
-        <li class="active dropdown"><a href="index.html">Home <b class="caret"></b></a>
+        <li class="active dropdown"><a routerLink='/DashBoard'>Home <b class=""></b></a>
+            <!-- submenu-wrapper -->
+            <div class="submenu-wrapper submenu-wrapper-topbottom">
+                <!-- submenu-inner -->
+                <div class="submenu-inner  submenu-inner-topbottom">
+             
+                </div>
+                <!-- /submenu-inner -->
+            </div>
+            <!-- /submenu-wrapper -->
+        </li>
+
+        <li class="dropdown">
+            <a >Products<b class="caret"></b></a>
             <!-- submenu-wrapper -->
             <div class="submenu-wrapper submenu-wrapper-topbottom">
                 <!-- submenu-inner -->
                 <div class="submenu-inner  submenu-inner-topbottom">
                     <ul class="dropdown-menu">
-                        <li class="active"><a href="index.html">Home Style 1</a></li>
-                        <li><a href="index_2.html">Home Style 2</a></li>
-                        <li><a href="index_3.html">Home Style 3</a></li>
-                        <li><a href="index_4.html">Home Style 4 </a></li>
-                        <li><a href="index_5.html">Home Style 5 </a></li>
+                        <li><a routerLink='/price-flow'>PriceFlow</a></li>
+                        <li><a routerLink='/Display-Flow'>DisplayFlow</a></li>
+                        <li><a routerLink='/Ad-Flow'>AdFlow</a></li>
+                        <li><a routerLink='/Loyalty-Flow'>LoyaltyFlow</a></li>
+                        <li><a routerLink='/Stock-Flow'>StockFlow</a></li>
+                        <li><a routerLink='/Knowledge-Flow'>KnowledgeFlow</a></li>
+            <!--li><a href="core.html">Roadmap</a></li>-->
+                    </ul>
+                </div>
+                <!-- /submenu-inner -->
+            </div>
+            <!-- /submenu-wrapper -->
+        </li>
+    
+<li class="dropdown">
+            <a>Services<b class="caret"></b></a>
+            <!-- submenu-wrapper -->
+            <div class="submenu-wrapper submenu-wrapper-topbottom">
+                <!-- submenu-inner -->
+                <div class="submenu-inner  submenu-inner-topbottom">
+                    <ul class="dropdown-menu">
+                        <li><a routerLink='/Services-Portfolio'>Services Portfolio</a></li>
+                        <li><a routerLink='/shelf-labels'>Shelf Labels</a></li>
+                        <li><a routerLink='/shelf-displays'>Shelf Displays</a></li>
+                        <li><a routerLink='/display-panels'>Display Panels</a></li>
+
+                    </ul>
+                </div>
+  
+                <!-- /submenu-inner -->
+            </div>
+            <!-- /submenu-wrapper -->
+        </li> 
+  
+
+<li class="dropdown">
+            <a >Industry<b class="caret"></b></a>
+            <!-- submenu-wrapper -->
+            <div class="submenu-wrapper submenu-wrapper-topbottom">
+                <!-- submenu-inner -->
+                <div class="submenu-inner  submenu-inner-topbottom">
+          
+                    <ul class="dropdown-menu">
+                        <li><a routerLink='/Blog'>BLOG</a></li>
+                       
+                    </ul>
+         
+                </div>
+                <!-- /submenu-inner -->
+            </div>
+            <!-- /submenu-wrapper -->
+        </li>
+    
+<li class="dropdown">
+            <a >About<b class="caret"></b></a>
+            <!-- submenu-wrapper -->
+            <div class="submenu-wrapper submenu-wrapper-topbottom">
+                <!-- submenu-inner -->
+                <div class="submenu-inner  submenu-inner-topbottom">
+                    <ul class="dropdown-menu">
+                        <li><!--a href="about.html">About Us</a --></li>
+                        <li><a routerLink='/About-Us'>About Us</a></li>
+                        <li><a routerLink='/Team'>Team</a></li>
+                        
+
+                      
                     </ul>
                 </div>
                 <!-- /submenu-inner -->
@@ -124,178 +199,96 @@
             <!-- /submenu-wrapper -->
         </li>
 
-        <li><a href="magazine_layout.html">PRODUCTS</a></li>
-        <li class="dropdown">
-            <a href="#">SERVICES<b class="caret"></b></a>
-            <!-- submenu-wrapper -->
-            <div class="submenu-wrapper submenu-wrapper-topbottom">
-                <!-- submenu-inner -->
-                <div class="submenu-inner  submenu-inner-topbottom">
-                    <ul class="dropdown-menu">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="left_sidebar.html">Left Sidebar</a></li>
-                        <li><a href="full_width.html">Full Width Page</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="pricing.html">Pricing Table</a></li>
-                        <li><a href="project.html">Project</a></li>
-                        <li class="dropdown">
-                            <a href="team.html">
-                                Team Page <span class="fa fa-caret-right"></span>
-                            </a>
+<li class="dropdown mega-fw has-megamenu"><a  data-toggle="dropdown" class="dropdown-toggle">Contact<strong class="caret"></strong></a>
+                          <div class="submenu-wrapper submenu-wrapper-topbottom megamenu-wrapper">
+                                <div class="submenu-inner  submenu-inner-topbottom megamenu-inner">
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="mega-content">
+                                                <div class="row">
+                                                    <!-- mega menu item -->
+                                                    <div class="col-sm-3">
+                                           <div class="mega-menu-item">
+                                                            <h2>Our location</h2>
 
-                            <div class="submenu-sub-wrapper submenu-sub-wrapper-leftright">
-                                <div class="submenu-sub-inner submenu-sub-inner-leftright">
-                                    <ul class="sub-dropdown-menu">
-                                        <li><a title="Submenu" href="team.html">Team Page</a></li>
-                                        <li><a title="Submenu" href="single-team.html">Single Team Page</a></li>
+                                      <p>Research Triangle Park Area <br>
+                                                                Durham, North Carolina</p>
+           <img class="img-responsive" src="assets/img/RTPAreaOffice.jpg" alt="Demo Image"/>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- mega menu item -->
+                                                    <div class="col-sm-3">
+                                                        <div class="mega-menu-item">
+                                                            <h2>Head Office</h2>
+                              <strong>Turret Labs</strong><br>
+                              4819 Emperor Blvd.<br>
+                              Suite 400<br>
+                              Durham<br>NC 27703
+
+                                                            <div class="mega-item-text">
+                                                                <p><strong>Inquiries:</strong>
+                                                                    <a class="email" routerLink='/DashBoard'>info@turretlabs.com</a><br>
+                                                                <strong>Sales:</strong>
+                                                                    <a class="email" routerLink='/DashBoard'>sales@turretlabs.com</a></p>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- mega menu item -->
+                                                    <div class="col-sm-3">
+                                                        <div class="mega-menu-item">
+                                                            <h2>Sales Locations</h2>
+
+                                                            <div class="mega-item-text">
+                                                                <p><strong>New York-JFK, EWR</strong><br>
+                                  21st Floor<br>
+                                  590 Madison Ave,<br> New York
+                                                                   NY 10022 <br></p>
+                                                              <p><strong>Chicago-ORD</strong><br>
+                                                                  8770 West Bryn Mawr Ave, Suite 1300, <br>
+                                                                   Chicago, IL 60631<br>
+                                                                   </p>
+                                                                <p><strong>Los Angeles-LAX </strong><br>
+                                                                  400 Continental Blvd.<br>
+                                                                  El Segundo<br>
+                                                                  Los Angeles, CA 90245<br>
+                                                                </p>
+                                <p><strong>Miami-MIA </strong><br>
+                                                                  Waterford Business Park<br> 5201 Blue Lagoon Drive, 8th Floor<br> Miami, FL 33126
+                                                                </p>					   
+                                             
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- mega menu item -->
+                                                    <div class="col-sm-3">
+                                                        <div class="mega-menu-item">
+                                                            <h2>OPERATIONS</h2>
+
+                                                            <div class="mega-item-text">
+                                                               <p><strong>Service Desk:</strong><br> 9 am to 5 pm M-F<br> +1(919) 303-4594</p>
+
+                                                                <p><strong>OPS Team:</strong><br> 
+                                                                    HelpDesk@turretlabs.com</p>
+                                <img src="assets/img/DRTower1.jpg" alt=""/>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
+
                                 </div>
                             </div>
+                            <!-- /megamenu-wrapper -->
 
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="faq.html">
-                                FAQ <span class="fa fa-caret-right"></span>
-                            </a>
-
-                            <div class="submenu-sub-wrapper submenu-sub-wrapper-leftright">
-                                <div class="submenu-sub-inner submenu-sub-inner-leftright">
-                                    <ul class="sub-dropdown-menu">
-                                        <li><a title="Submenu" href="faq.html">FAQ Page</a></li>
-                                        <li><a title="Submenu" href="faq-style2.html">FAQ Style 2</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </li>
-
-                        <li><a href="404.html">404 Page</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /submenu-inner -->
-            </div>
-            <!-- /submenu-wrapper -->
-        </li>
-
-        <li class="dropdown">
-            <a href="#">INDUSTRY<b class="caret"></b></a>
-            <!-- submenu-wrapper -->
-            <div class="submenu-wrapper submenu-wrapper-topbottom">
-                <!-- submenu-inner -->
-                <div class="submenu-inner  submenu-inner-topbottom">
-                    <ul class="dropdown-menu">
-                        <li><a href="INDUSTRY.html">INDUSTRY</a></li>
-                        <li><a href="single.html">INDUSTRY Single</a></li>
-                        <li><a href="INDUSTRY-left-sidebar.html">INDUSTRY Left Sidebar</a></li>
-                        <li><a href="INDUSTRY-full-width.html">INDUSTRY Fullwidth</a></li>
-                    </ul>
-
-                </div>
-                <!-- /submenu-inner -->
-            </div>
-            <!-- /submenu-wrapper -->
-        </li>
-
-        <li class="dropdown">
-            <a href="#">ABOUT<b class="caret"></b></a>
-            <!-- submenu-wrapper -->
-            <div class="submenu-wrapper submenu-wrapper-topbottom">
-                <!-- submenu-inner -->
-                <div class="submenu-inner  submenu-inner-topbottom">
-                    <ul class="dropdown-menu">
-                        <li><a href="ABOUTs-elements.html">Elements</a></li>
-                        <li><a href="ABOUTs-columns.html">Columns</a></li>
-                        <li><a href="ABOUTs-typography.html">Typography</a></li>
-                    </ul>
-                </div>
-                <!-- /submenu-inner -->
-            </div>
-            <!-- /submenu-wrapper -->
-        </li>
-
-
-        <li class="dropdown mega-fw has-megamenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact<b
-                class="caret"></b></a>
-
-            <div class="submenu-wrapper submenu-wrapper-topbottom megamenu-wrapper">
-                <div class="submenu-inner  submenu-inner-topbottom megamenu-inner">
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="mega-content">
-                                <div class="row">
-                                    <!-- mega menu item -->
-                                    <div class="col-sm-3">
-                                        <div class="mega-menu-item">
-                                            <h2>Our location</h2>
-
-                                            <p>350 Fifth Avenue 34th floor <br>
-                                                New York NY 10065 USA</p>
-                                            <img class="img-responsive" src="img/menu-map.jpg" alt="Demo Image"/>
-                                        </div>
-                                    </div>
-
-                                    <!-- mega menu item -->
-                                    <div class="col-sm-3">
-                                        <div class="mega-menu-item">
-                                            <h2>Head Office</h2>
-
-                                            <div class="mega-item-text">
-                                                <p><strong>Email</strong><br>Please feel free to send us an email
-                                                    <br>
-                                                    <a class="email" href="#">info@industrix.com</a></p>
-
-                                                <p><strong>Phone</strong><br> Give us a call<br> +1-212-736-1234</p>
-
-                                                <p><strong>Mobile</strong><br> Buy Online or call <br>
-                                                    +1-212-736-1234</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- mega menu item -->
-                                    <div class="col-sm-3">
-                                        <div class="mega-menu-item">
-                                            <h2>Facetory Address</h2>
-
-                                            <div class="mega-item-text">
-                                                <p><strong>Steel Mile</strong><br>261-3502 Natoque Street<br>Glen
-                                                    CoveQC<br>Liberia</p>
-
-                                                <p><b>Petroleum</b><br>4027 Rutrum <br>Ave Gulfport<br>NBSlovakia
-                                                </p>
-
-                                                <p><strong>Bio </strong><b>Diesel</b><br>446-8604 Risus Avenue
-                                                    Quincy<br>Nova Scotia<br>Colombia</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- mega menu item -->
-                                    <div class="col-sm-3">
-                                        <div class="mega-menu-item">
-                                            <h2>this is sample text</h2>
-
-                                            <div class="mega-item-text">
-                                                <p>Our support Hotline is available 8 Hours a day</p>
-
-                                                <p><strong>Monday-Friday: </strong> 10am to 8pm <br> <strong>Saturday
-                                                    – Sunday:</strong> By Special Appointment <br>
-                                                    <strong>Weekend:</strong> Closed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <!-- /megamenu-wrapper -->
-
-            <!-- //Mega Menu -->
+                            <!-- //Mega Menu -->
         </li>
     </ul>
 </nav>
