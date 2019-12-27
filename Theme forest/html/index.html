@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Industrix</title>
+    <title>ShelfenRoll</title>
     <meta name="description" content=""/>
 
     <!-- This styles only adds some repairs on idevices  -->
@@ -188,9 +188,8 @@
                     <ul class="dropdown-menu">
                         <li><!--a href="about.html">About Us</a --></li>
                         <li><a routerLink='/About-Us'>About Us</a></li>
-                        <li><a routerLink='/Team'>Team</a></li>
-                        
-
+                        <li><a href="Team.html">Team</a></li>
+                    
                       
                     </ul>
                 </div>
@@ -213,7 +212,7 @@
 
                                       <p>Research Triangle Park Area <br>
                                                                 Durham, North Carolina</p>
-           <img class="img-responsive" src="assets/img/RTPAreaOffice.jpg" alt="Demo Image"/>
+           <img class="img-responsive" src="img/RTPAreaOffice.jpg" alt="Demo Image"/>
                                                         </div>
                                                     </div>
 
@@ -274,7 +273,7 @@
 
                                                                 <p><strong>OPS Team:</strong><br> 
                                                                     HelpDesk@turretlabs.com</p>
-                                <img src="assets/img/DRTower1.jpg" alt=""/>
+                                <img src="img/DRTower1.jpg" alt=""/>
                                                                 
                                                             </div>
                                                         </div>
@@ -717,7 +716,7 @@
 
                 <div class="item col-md-11">
                     <a href='https://www.convenience.org/'>
-                        <img src="img/nacs-logo.png" alt="" />
+                        <img src="img/nacs-picturemessage.png" alt="" />
                     </a>
 
                     <div class="date-meta">October 2-4, 2019</div>
@@ -939,7 +938,7 @@
                     <img src="img/impinj.jpg" alt="Demo Image" />
                 </div>
                 <div class="item">
-                    <img src="img/TurretLabsLogo.png" alt="Impinj RFID" />
+                    <img src="img/TurretLabspicturemessage.png" alt="Impinj RFID" />
                 </div>
                 <div class="item">
                     <img src="img/EquiNordicLogo3Common.jpg" alt="Demo Image" />
@@ -1099,10 +1098,10 @@
       
             <div class="sidebar-header">
                 <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas">&times;</button>
-      
+<!--       
                 <div class="mobile-logo">
-                    <a routerLink='/DashBoard'><img src="assets/img/mobile-logo.png" alt=""/></a>
-                </div>
+                    <a routerLink='/DashBoard'><img src="" alt=""/></a>
+                </div> -->
             </div>
       
             <!--Menu-->
@@ -1157,56 +1156,45 @@
         <div class="sidebar-header">
             <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas">&times;</button>
 
-            <div class="mobile-logo">
-                <a href="index.html"><img src="img/mobile-logo.png" alt=""/></a>
-            </div>
+            <!-- <div class="mobile-logo">
+                <a href="index.html"><img src="" alt=""/></a>
+            </div> -->
         </div>
 
         <!--Menu-->
         <ul>
-            <li><a href="index.html">Home</a>
-                <ul>
-                    <li><a href="index.html">Home Style 1</a></li>
-                    <li><a href="index_2.html">Home Style 2</a></li>
-                    <li><a href="index_3.html">Home Style 3</a></li>
-                    <li><a href="index_4.html">Home Style 4 </a></li>
-                    <li><a href="index_5.html">Home Style 5 </a></li>
-                </ul>
+            <li><a routerLink='/DashBoard'>Home</a>
             </li>
-            <li><a href="magazine_layout.html">PRODUCTS</a></li>
-            <li><a href="#" title="">SERVICES</a>
+            <li><a >Features</a>
+              <ul>
+                  <li><a routerLink='/Project'>Module portfolio</a></li>
+              </ul>
+          </li>
+          <li><a  title="">Services</a>
+              <ul>
+                  <li><a routerLink='/Services-Portfolio'>Service Portfolio</a></li>    
+              </ul>
+          </li>
+          <li><a >Industry</a>
+              <ul>
+                  <li><a routerLink='/Blog'>Blog</a></li>
+           
+              </ul>
+          </li>
+            
+            <li><a >About</a>
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="left_sidebar.html">Left Sidebar</a></li>
-                    <li><a href="full_width.html">Full Width Page</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="pricing.html">Pricing Table</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a title="Submenu" href="team.html">Team Page</a></li>
-                    <li><a title="Submenu" href="single-team.html">Single Team Page</a></li>
-                    <li><a title="Submenu" href="faq.html">FAQ Page</a></li>
-                    <li><a title="Submenu" href="faq-style2.html">FAQ Style 2</a></li>
-                    <li><a href="404.html">404 Page</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                    <li><a href="Team.html">Team</a></li>
+                                </ul>
             </li>
-
-            <li><a href="#">INDUSTRY SERVICES</a>
-                <ul>
-                    <li><a href="INDUSTRY.html">INDUSTRY</a></li>
-                    <li><a href="single.html">INDUSTRY Single</a></li>
-                    <li><a href="INDUSTRY-left-sidebar.html">INDUSTRY Left Sidebar</a></li>
-                    <li><a href="INDUSTRY-full-width.html">INDUSTRY Fullwidth</a></li>
-                </ul>
-            </li>
-
-            <li><a href="#">ABOUT</a>
-                <ul>
-                    <li><a href="ABOUTs-elements.html">Elements</a></li>
-                    <li><a href="ABOUTs-columns.html">Columns</a></li>
-                    <li><a href="ABOUTs-typography.html">Typography</a></li>
-                </ul>
-            </li>
+            
+          <li><a >Contact</a>
+              <ul>
+                  <li><a routerLink='/Team'>Team</a></li>
+              </ul>
+          </li>
+  
+          
         </ul>
 
     </div>
